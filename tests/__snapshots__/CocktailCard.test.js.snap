@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fff",
+      },
+      Object {
+        "backgroundColor": "white",
+        "borderBottomColor": "lightgrey",
+        "borderBottomWidth": 1,
+        "padding": 8,
+      },
+    ]
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#fff",
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#fff",
+            },
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000",
+              },
+              Object {
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "width": "80%",
+              },
+            ]
+          }
+        >
+          White Russian
+        </Text>
+        <Image
+          source={
+            Object {
+              "uri": "",
+            }
+          }
+          style={
+            Object {
+              "height": 50,
+              "width": "20%",
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+</View>
+`;
